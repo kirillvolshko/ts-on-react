@@ -1,0 +1,1 @@
+export const FOTO_API_KEY = "tdD82_eLIy7ERbnB-b288OgIjBSWao0ICJRBXPN88h8"; 

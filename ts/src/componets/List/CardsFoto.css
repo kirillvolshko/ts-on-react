@@ -1,0 +1,42 @@
+
+.content{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+.fotos-content{ 
+    columns: 2;
+    column-gap: 40px;
+    width: max-content;
+   
+}
+.cards{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(207, 201, 194);
+    border: 2px;
+    border-radius: 8px;
+    width: max-content;
+    height: max-content;
+    text-align: end;
+}
+.foto{
+    border-radius: 12px;
+}
+.foto:hover{
+   cursor: zoom-in;
+}
+.description{
+    text-align: center;
+    font-size: 8pt;
+}
+.description-none{
+    visibility: hidden;
+}
+@media (max-width:500px){
+  
+    .fotos-content{
+    columns: 1;
+    }
+
+}
